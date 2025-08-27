@@ -1,10 +1,17 @@
 import React from 'react'
 import logo from '../assets/logo.jpg'
 import { NavLink, useNavigate } from 'react-router-dom'
+import Button from './Button';
 
 const Navbar = () =>
 {
-  const naviate = useNavigate();
+  const navigate = useNavigate();
+
+  const onClick = () =>
+  {
+    navigate('/contact', { replace: true });
+  }
+
   return (
     <div className="w-full flex justify-between items-center px-6 py-3">
       <img src={logo} alt="logo_img" className="w-14 rounded-full" />
@@ -55,10 +62,9 @@ const Navbar = () =>
         </NavLink>
       </ul>
 
-      <button className="bg-black text-white rounded-2xl px-4 py-2 hover:bg-gray-800 transition"
-        onClick={() => naviate('/contact',{replace:true})}>
-        Get Started
-      </button>
+
+      <Button text="Get Started" onClick={onClick} />
+
 
     </div>
   )
