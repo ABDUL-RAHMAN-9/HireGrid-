@@ -19,7 +19,7 @@ const Jobs = () =>
             key={job.id}
             to={`/jobs/${job.id}`}
             className="p-6 bg-white rounded-2xl shadow-xl hover:shadow-2xl 
-                       hover:scale-105 transform transition duration-300 ease-in-out"
+                       hover:scale-105 transform transition duration-300 ease-in-out border border-gray-300"
           >
             <h4 className="text-lg font-semibold text-gray-900 mb-3">
               {job.title}
