@@ -33,6 +33,7 @@ const App = () =>
           <Route path='form' element={<ContactForm />} />
         </Route>
         <Route path='jobs' element={<JobsLayout />}>
+          {/* Uses jobsLoader to fetch and provide job data */}
           <Route index element={<Jobs />} loader={jobsLoader} />
         </Route>
         <Route path='*' element={<NotFound />} />
