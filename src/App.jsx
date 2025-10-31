@@ -17,24 +17,21 @@ import JobsLayout from './layout/JobsLayout'
 import Jobs, { jobsLoader } from './pages/Jobs'
 import JobDetails, { jobDetailsLoader } from './components/JobDetails'
 import Error from './components/Error'
+// ... (existing imports)
 
 const App = () =>
 {
-  // Define all routes using React Router
   const router = createBrowserRouter(
     createRoutesFromElements(
-      // Root layout wraps all routes (Navbar, Footer, etc.)
       <Route path='/' element={<RootLayout />}>
-
-        {/* Default route -> Home page */}
         <Route index element={<Home />} />
-
-        {/* Other top-level routes */}
         <Route path='products' element={<Product />} />
         <Route path='about' element={<About />} />
 
-        {/* Contact route with nested routing */}
+        {/* Contact route with nested routing - This is now correct */}
         <Route path='contact' element={<ContactLayout />}>
+          {/* Add an index route to default to ContactInfo */}
+          <Route index element={<ContactInfo />} />
           <Route path='info' element={<ContactInfo />} />
           <Route path='form' element={<ContactForm />} />
         </Route>
@@ -55,7 +52,6 @@ const App = () =>
           />
         </Route>
 
-        {/* Catch-all route */}
         <Route path='*' element={<NotFound />} />
       </Route>
     )
