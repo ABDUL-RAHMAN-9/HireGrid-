@@ -41,8 +41,8 @@ const Navbar = () =>
           </NavLink>
         </li>
         <li>
-          <NavLink to="/products" className={({ isActive }) => getNavLinkClasses(isActive)}>
-            Products
+          <NavLink to="/discover" className={({ isActive }) => getNavLinkClasses(isActive)}>
+            Discover
           </NavLink>
         </li>
         <li>
@@ -109,13 +109,13 @@ const Navbar = () =>
         </li>
         <li className="w-full text-center">
           <NavLink
-            to="/products"
+            to="/Discover"
             onClick={() => setNav(false)}
             className={({ isActive }) =>
               `block py-4 text-xl font-medium ${getNavLinkClasses(isActive)} border-b border-gray-700`
             }
           >
-            Products
+            Discover
           </NavLink>
         </li>
         <li className="w-full text-center">
