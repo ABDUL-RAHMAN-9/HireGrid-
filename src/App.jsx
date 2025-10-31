@@ -1,13 +1,13 @@
 import Home from './pages/Home'
 import About from './pages/About'
-import Product from './pages/Product'
+import Discover from './pages/Discover'
 import
-  {
-    Route,
-    createBrowserRouter,
-    createRoutesFromElements,
-    RouterProvider,
-  } from 'react-router-dom'
+{
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from 'react-router-dom'
 import RootLayout from './layout/RootLayout'
 import ContactLayout from './layout/ContactLayout'
 import ContactInfo from './components/ContactInfo'
@@ -17,7 +17,6 @@ import JobsLayout from './layout/JobsLayout'
 import Jobs, { jobsLoader } from './pages/Jobs'
 import JobDetails, { jobDetailsLoader } from './components/JobDetails'
 import Error from './components/Error'
-// ... (existing imports)
 
 const App = () =>
 {
@@ -25,7 +24,7 @@ const App = () =>
     createRoutesFromElements(
       <Route path='/' element={<RootLayout />}>
         <Route index element={<Home />} />
-        <Route path='products' element={<Product />} />
+        <Route path='discover' element={<Discover />} />
         <Route path='about' element={<About />} />
 
         {/* Contact route with nested routing - This is now correct */}
