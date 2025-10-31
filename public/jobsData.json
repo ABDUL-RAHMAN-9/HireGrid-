@@ -1,0 +1,104 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "WebFlow Solutions",
+      "location": "New York, USA",
+      "salary": "$80,000 - $100,000",
+      "image": "https://images.unsplash.com/photo-1542831371-29b0f74f4913?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "Full-time",
+      "description": "Develop and maintain user-facing features using modern JavaScript frameworks."
+    },
+    {
+      "id": 2,
+      "title": "Backend Engineer",
+      "company": "API Architects",
+      "location": "San Francisco, USA",
+      "salary": "$95,000 - $120,000",
+      "image": "https://images.unsplash.com/photo-1579403124614-197f69d8187e?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "Full-time",
+      "description": "Design, build, and maintain efficient, scalable, and reliable backend services."
+    },
+    {
+      "id": 3,
+      "title": "Full Stack Engineer",
+      "company": "DevOps Dynamics",
+      "location": "Remote",
+      "salary": "$100,000 - $130,000",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "Full-time",
+      "description": "Work across the entire stack, from database to user interface."
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Designer",
+      "company": "PixelPerfect Studios",
+      "location": "London, UK",
+      "salary": "£65,000 - £85,000",
+      "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "Full-time",
+      "description": "Create intuitive and aesthetically pleasing user experiences and interfaces."
+    },
+    {
+      "id": 5,
+      "title": "Data Scientist",
+      "company": "Analytics Innovators",
+      "location": "Toronto, Canada",
+      "salary": "CAD 110,000 - CAD 140,000",
+      "image": "https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "Full-time",
+      "description": "Analyze complex datasets to extract insights and build predictive models."
+    },
+    {
+      "id": 6,
+      "title": "Mobile App Developer",
+      "company": "AppCraft Pro",
+      "location": "Berlin, Germany",
+      "salary": "€70,000 - €90,000",
+      "image": "https://images.unsplash.com/photo-1606770417671-558226ad61a4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "Full-time",
+      "description": "Develop cross-platform or native mobile applications for iOS and Android."
+    },
+    {
+      "id": 7,
+      "title": "Cloud Engineer",
+      "company": "Azure Architects",
+      "location": "Dublin, Ireland",
+      "salary": "€75,000 - €95,000",
+      "image": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "Full-time",
+      "description": "Design, implement, and manage cloud infrastructure on platforms like AWS, Azure, or GCP."
+    },
+    {
+      "id": 8,
+      "title": "Machine Learning Engineer",
+      "company": "AI Frontier",
+      "location": "Remote",
+      "salary": "$120,000 - $150,000",
+      "image": "https://images.unsplash.com/photo-1589254065878-01d71050e95c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "Full-time",
+      "description": "Build and deploy machine learning models and pipelines."
+    },
+    {
+      "id": 9,
+      "title": "Cybersecurity Analyst",
+      "company": "SecureDefend Systems",
+      "location": "Austin, USA",
+      "salary": "$90,000 - $110,000",
+      "image": "https://images.unsplash.com/photo-1593642531955-b62e17bbdcd9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "Full-time",
+      "description": "Monitor, detect, and respond to cybersecurity threats."
+    },
+    {
+      "id": 10,
+      "title": "DevOps Engineer",
+      "company": "Seamless Deployments Inc.",
+      "location": "Sydney, Australia",
+      "salary": "AUD 95,000 - AUD 120,000",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "type": "Full-time",
+      "description": "Automate and optimize software development and delivery processes."
+    }
+  ]
+}
